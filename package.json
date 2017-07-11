@@ -1,0 +1,35 @@
+{
+  "name": "Peter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "angular-filter": "^0.5.8",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "^2.5.6",
+    "es6-promise": "^3.2.1",
+    "express": "~4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-filter": "^3.0.1",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.12.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-watch": "^4.3.5",
+    "lodash": "^4.6.0",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "rimraf": "^2.4.3",
+    "serve-favicon": "^2.3.2"
+  },
+  "devDependencies": {
+    "rigger": "^0.5.10"
+  }
+}

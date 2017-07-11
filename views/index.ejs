@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="petricaApp">
+<head>
+    <% include ./partials/head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include ./partials/header %>
+ 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!-- load jquery -->
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script><!-- load angular -->
+        <script type='text/javascript' src='javascripts/extra/ng-infinite-scroll.min.js'></script>
+        <script type='text/javascript' src='javascripts/extra/angular-fullscreen.js'></script>
+        <script src="assets/javascripts/core.js"></script>
+    </header>
+
+    <!-- Inject Flikr API key from config file -->
+    <script>var FLICKR_API_KEY = '<%= flickrAPIKey %>';</script>
+
+    <main>
+        <div class="jumbotron" ng-controller="MainCtrl">
+            <p>{{ pageTitle }}</p>
+
+                
+            <div ng-include="'assets/javascripts/tmpl/search.ng'"></div>
+
+            
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <% include ./partials/footer %>
+    </footer>
+
+</body>
+</html>

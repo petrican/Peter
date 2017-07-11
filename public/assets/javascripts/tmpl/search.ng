@@ -1,0 +1,37 @@
+<div ng-controller="SearchCtrl">
+
+<form name="search" role="form">
+    <div class="input-group input-group-search">
+        <div class="col-lg-8 pull-left">
+            <input type="text" placeholder="Type here.." class="form-control" ng-model="$parent.keywords" required>
+        </div>
+        <div class="col-lg-2 pull-left">
+            <button class="btn-medium btn-primary" ng-click="performSearch()">
+                Search
+            </button>
+        </div>
+        <div class="col-lg-2 pull-left">
+            <button class="btn-medium btn-default" ng-click="performClear()">
+                Reset
+            </button>
+        </div>
+      
+
+
+    </div>
+</form>
+
+<div infinite-scroll="performSearch()" infinite-scroll-distance="3">
+      <div data-ng-repeat="photos in resultedImages">
+         <br />                      
+         <a href="javascript:void(0);">
+         <img id="{{photos.imageId}}" src="{{photos.thumbnailPath}}" fullscreen  />
+         </a>
+      </div>
+</div>
+
+</div>
+
+
+
+
