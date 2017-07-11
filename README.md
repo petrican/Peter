@@ -56,6 +56,24 @@ Enjoy !
 
 
 
+Frameworks/Libs used + reasons:
+
+Express - Simplicity and due to requirements (point when I am being asked to use JavaScript)
+Bootstrap - I like to do things in timely manner
+Angular 1 - with this is what I familiar
+
+Gulp as taskrunner. Note all the gulp deps in package.json - Also because is something familiar
+
+Estra libs: 
+angular-fullscreen
+ng-infinite-scroll
+( reason for both: I don't like to reinvent the wheel :) )
+
+Things remaining TODO:
+
+- write tests with karma/Jasmine
+
+
 
 
 
