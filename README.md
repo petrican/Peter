@@ -30,7 +30,12 @@ Once you have it replace the XXXXXXXXXXXXXXXXXXXXXXXXXX with the actual FlickrAP
 
 Save.
 
-Step 7: 
+Step 7: run build
+
+$ gulp build
+
+
+Step 8: 
 
 Run 'nodemon' in the directory. If you don't have that installed install it first with 
 
@@ -40,9 +45,9 @@ then run
 
 $ nodemon
 
-Step 8: At this stage the app should be running on your http://localhost:3000/ so open your browser and point it to this address.
+Step 9: At this stage the app should be running on your http://localhost:3000/ so open your browser and point it to this address.
 
-Step 9: Input some search string like 'bike' then hit the 'Search' button. Scroll ..., click on an image ..aso.
+Step 10: Input some search string like 'bike' then hit the 'Search' button. Scroll ..., click on an image ..aso.
 
 Enjoy !
 
