@@ -75,6 +75,20 @@ Things remaining TODO:
 
 
 
+--------------------------------------------------------------------------------------------------
+
+You can also run the app as a docker container. It is present on DockerHub.
+
+Step 1: Make sure you have installed docker on your machine.
+
+Step 2: Suppose you already have docker installed to run it on the local machine you need to run
+
+sudo docker run -i -p 3000:3000 petrican/peterapp
+
+Then point your browser to http://localhost:3000
+
+
+
 
 
 
